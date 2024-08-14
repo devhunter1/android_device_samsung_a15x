@@ -1,4 +1,0 @@
-service servicemanager /system/bin/servicemanager
-    disabled
-    group system readproc
-    seclabel u:r:servicemanager:s0
