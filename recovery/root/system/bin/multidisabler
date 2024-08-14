@@ -1,0 +1,12 @@
+#!/system/bin/sh
+set -e
+
+echo "Disabling recovery restoration..."
+dd if=/dev/block/by-name/boot of=/tmp/old-boot.img
+mkdir -p /tmp/unpacked_boot
+cd /tmp/unpacked_boot
+magiskboot unpack -h /tmp/old-boot.img
+magiskboot repack /tmp/old-boot.img /tmp/new-boot.img
+cd -
+rm -rf /tmp/unpacked_boot
+dd if=/tmp/new-boot.img of=/dev/block/by-name/boot
