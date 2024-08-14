@@ -12,7 +12,7 @@
 
 ```
 . build/envsetup.sh
-lunch twrp_a15-eng
+lunch twrp_a15x-eng
 mka recoveryimage
 ```
 
