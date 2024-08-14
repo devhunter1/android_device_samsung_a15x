@@ -1,0 +1,7 @@
+# mount point	fstype		device			device2			flags
+/system_image		emmc	/dev/block/mapper/system		flags=backup=0;flashimg;display="System Image"
+/vendor_image		emmc	/dev/block/mapper/vendor		flags=backup=0;flashimg;display="Vendor Image"
+/product_image		emmc	/dev/block/mapper/product		flags=backup=0;flashimg;display="Product Image"
+/odm_image		emmc	/dev/block/mapper/odm		flags=backup=0;flashimg;display="Odm Image"
+/system_ext_image	emmc	/dev/block/mapper/system_ext	flags=backup=0;flashimg;display="System_EXT Image"
+/vendor_dlkm_image	emmc	/dev/block/mapper/vendor_dlkm	flags=backup=0;flashimg;display="Vendor_DLKM Image"
