@@ -1,3 +1,4 @@
 ro.display.series=Samsung Galaxy A15 5G
 ro.boot.dynamic_partitions=true
 sys.usb.config=mtp
+ro.hardware=mt6835
