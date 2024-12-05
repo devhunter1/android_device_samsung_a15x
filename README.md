@@ -1,4 +1,4 @@
-# Android device tree for samsung SM-A156E (a15x)
+# Android device tree for samsung SM-A156X (a15x)
 
 ```
 #
